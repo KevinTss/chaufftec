@@ -1,4 +1,5 @@
-import { Pathnames } from '@types';
+import { Pathnames, Locale, Dictionary } from '@types';
+import { en, fr } from '@constants';
 
 export const i18n = {
   defaultLocale: 'en',
@@ -30,4 +31,9 @@ export const pathnames: Pathnames = {
     en: '/en/water-treatment',
     fr: '/fr/traitement-des-eaux',
   },
+};
+
+export const dictionariesMap: Record<Locale, Dictionary> = {
+  en,
+  fr,
 };
