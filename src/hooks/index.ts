@@ -1,1 +1,2 @@
-// TDB
+export * from './useCurrentLocale';
+export * from './usePageId';

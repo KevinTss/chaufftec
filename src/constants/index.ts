@@ -1,1 +1,1 @@
-// TDB
+export * from './locales.constants';
