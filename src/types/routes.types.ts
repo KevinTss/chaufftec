@@ -1,7 +1,9 @@
 export type PageId =
-  | 'index'
-  | 'heating'
+  | 'about'
   | 'energy'
-  | 'sanitary'
   | 'gaz'
+  | 'heating'
+  | 'index'
+  | 'sanitary'
+  | 'service'
   | 'water';

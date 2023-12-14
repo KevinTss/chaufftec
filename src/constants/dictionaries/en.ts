@@ -5,4 +5,23 @@ export const en = {
   'nav.gaz': 'Gaz',
   'nav.sanitary': 'Sanitary',
   'nav.water': 'Water',
+  'index.header.title': 'Your expert',
+  'index.header.description':
+    'We offer a large heating service, renewable energy, sanitary, gaz and water treatment.',
+  'index.header.cta': 'Contact us',
+  'index.service.title': 'Our services',
+  'index.service.description':
+    'Fed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.',
+  'index.testimonials.title': 'What our customers says',
+  'index.testimonials.description': 'Thousands of people get benefit',
+  'index.service.1.title': 'Heating',
+  'index.service.1.description': '',
+  'index.service.2.title': 'Renewable energy',
+  'index.service.2.description': '',
+  'index.service.3.title': 'Gaz',
+  'index.service.3.description': '',
+  'index.service.4.title': 'Sanitary',
+  'index.service.4.description': '',
+  'index.service.5.title': 'Water',
+  'index.service.5.description': '',
 };

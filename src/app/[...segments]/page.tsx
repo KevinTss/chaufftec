@@ -1,3 +1,3 @@
-import { IndexPage } from '@components'
+import { RootPage } from '../../components/root-page'
 
-export default IndexPage
+export default RootPage

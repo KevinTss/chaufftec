@@ -31,6 +31,14 @@ export const pathnames: Pathnames = {
     en: '/en/water-treatment',
     fr: '/fr/traitement-des-eaux',
   },
+  about: {
+    en: '/en/about',
+    fr: '/fr/a-propos',
+  },
+  service: {
+    en: '/en/services',
+    fr: '/fr/services',
+  },
 };
 
 export const dictionariesMap: Record<Locale, Dictionary> = {
