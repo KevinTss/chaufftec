@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { pathnames } from '@constants'
-import { DictionaryKeys } from '@types';
+import { DictionaryKeys } from '@types'
 import { useCurrentLocale, useTranslate } from '@hooks'
 
 const navigationLinks = [
@@ -12,14 +12,14 @@ const navigationLinks = [
   { trKey: 'nav.gaz', path: pathnames['gaz'] },
   { trKey: 'nav.sanitary', path: pathnames['sanitary'] },
   { trKey: 'nav.water', path: pathnames['water'] },
-] satisfies { trKey: DictionaryKeys, path: Record<"en" | "fr", string> }[]
+] satisfies { trKey: DictionaryKeys; path: Record<'en' | 'fr', string> }[]
 
 export const Navigation = () => {
   const locale = useCurrentLocale()
   const t = useTranslate()
 
   return (
-    <div className='flex gap-2'>
+    <div className="flex gap-2">
       {navigationLinks.map(({ trKey, path }) => (
         <Link
           key={trKey}

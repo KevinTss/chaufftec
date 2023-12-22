@@ -1,10 +1,10 @@
-import { Pathnames, Locale, Dictionary } from '@types';
-import { en, fr } from '@constants';
+import { Pathnames, Locale, Dictionary } from '@types'
+import { en, fr } from '@constants'
 
 export const i18n = {
   defaultLocale: 'en',
   locales: ['fr', 'en'],
-} as const;
+} as const
 
 export const pathnames: Pathnames = {
   index: {
@@ -39,9 +39,9 @@ export const pathnames: Pathnames = {
     en: '/en/services',
     fr: '/fr/services',
   },
-};
+}
 
 export const dictionariesMap: Record<Locale, Dictionary> = {
   en,
   fr,
-};
+}

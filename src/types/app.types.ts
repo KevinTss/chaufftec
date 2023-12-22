@@ -1,5 +1,5 @@
-import { Locale } from './locales.types';
+import { Locale } from './locales.types'
 
 export type AppParams = {
-  locale: Locale;
-};
+  locale: Locale
+}

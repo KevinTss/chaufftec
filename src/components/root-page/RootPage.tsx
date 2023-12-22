@@ -1,10 +1,10 @@
-import { AppFooter, AppHeader } from "@components"
-import { PageSwitcher } from "../page-switcher"
+import { AppFooter, AppHeader } from '@components'
+import { PageSwitcher } from '../page-switcher'
 
 type RootPageProps = {
   params: {
     segments: string[]
-  },
+  }
   searchParams: Record<string, string>
 }
 

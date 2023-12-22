@@ -1,3 +1,3 @@
-export * from './useCurrentLocale';
-export * from './usePageId';
-export * from './useTranslate';
+export * from './useCurrentLocale'
+export * from './usePageId'
+export * from './useTranslate'

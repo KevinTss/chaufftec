@@ -15,7 +15,7 @@ export const generateStaticParams = (): AppParams[] =>
   i18n.locales.map(locale => ({ locale }))
 
 type RootLayoutProps = {
-  children: React.ReactNode,
+  children: React.ReactNode
   params?: AppParams
 }
 
@@ -27,9 +27,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <body className={font.className}>
-        {children}
-      </body>
+      <body className={font.className}>{children}</body>
     </html>
   )
 }

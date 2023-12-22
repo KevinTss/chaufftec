@@ -1,2 +1,2 @@
-export * from './dictionaries';
-export * from './locales.constants';
+export * from './dictionaries'
+export * from './locales.constants'

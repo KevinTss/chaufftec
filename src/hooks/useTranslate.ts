@@ -1,11 +1,11 @@
-'use client';
+'use client'
 
-import { DictionaryKeys } from '@types';
-import { useCurrentLocale } from '@hooks';
-import { getDictionary } from '@utils';
+import { DictionaryKeys } from '@types'
+import { useCurrentLocale } from '@hooks'
+import { getDictionary } from '@utils'
 
 export const useTranslate = () => {
-  const locale = useCurrentLocale();
+  const locale = useCurrentLocale()
 
-  return (key: DictionaryKeys) => getDictionary(locale)[key];
-};
+  return (key: DictionaryKeys) => getDictionary(locale)[key]
+}

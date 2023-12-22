@@ -11,12 +11,14 @@ export const LocaleSwitcher = () => {
     <div>
       <p>Locale switcher:</p>
       <ul>
-        {i18n.locales.map((locale) => {
+        {i18n.locales.map(locale => {
           if (!pageId) return null
           const href = pathnames[pageId][locale]
           return (
             <li key={locale}>
-              <Link href={href} locale={locale}>{locale}</Link>
+              <Link href={href} locale={locale}>
+                {locale}
+              </Link>
             </li>
           )
         })}

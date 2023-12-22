@@ -7,7 +7,8 @@
     "dev:inspect": "NODE_OPTIONS='--inspect' next dev",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+    "format": "exec prettier . --write"
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.4.2",
@@ -26,6 +27,7 @@
     "eslint": "^8",
     "eslint-config-next": "13.5.6",
     "postcss": "^8",
+    "prettier": "3.1.1",
     "tailwindcss": "^3",
     "typescript": "^5"
   }

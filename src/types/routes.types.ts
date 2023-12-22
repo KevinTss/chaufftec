@@ -6,4 +6,4 @@ export type PageId =
   | 'index'
   | 'sanitary'
   | 'service'
-  | 'water';
+  | 'water'

@@ -1,13 +1,31 @@
-import { FiDroplet } from "react-icons/fi";
+/**
+ * @see https://react-icons.github.io/react-icons/icons/fi/
+ */
+import {
+  FiDroplet,
+  FiThermometer,
+  FiSun,
+  FiFilter,
+  FiHome,
+} from 'react-icons/fi'
 
 type IconProps = {
-  name: 'droplet'
+  name: 'droplet' | 'thermometer' | 'sun' | 'filter' | 'home'
 }
 
 export const Icon = ({ name }: IconProps) => {
   switch (name) {
     case 'droplet':
       return <FiDroplet />
-    default: null
+    case 'thermometer':
+      return <FiThermometer />
+    case 'sun':
+      return <FiSun />
+    case 'filter':
+      return <FiFilter />
+    case 'home':
+      return <FiHome />
+    default:
+      null
   }
 }

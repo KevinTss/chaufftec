@@ -20,11 +20,7 @@ export const PageSwitcher = ({ urlSegments }: PageSwitcherProps) => {
     case 'gaz':
     case 'water':
     case 'water':
-      return (
-        <div>
-          page {firstSegment}
-        </div>
-      )
+      return <div>page {firstSegment}</div>
     default:
       return notFound()
   }
