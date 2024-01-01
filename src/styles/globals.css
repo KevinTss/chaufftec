@@ -11,3 +11,12 @@
 body {
   color: rgb(var(--foreground-rgb));
 }
+
+.colored-on-hover {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.colored-on-hover:hover {
+  filter: grayscale(0%);
+}

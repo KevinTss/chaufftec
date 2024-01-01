@@ -25,4 +25,10 @@ export const fr = {
   "nav.index": "Accueil",
   "nav.sanitary": "Sanitaire",
   "nav.water": "Eau",
+  "footer.title.1": "Chauftec",
+  "footer.title.1.description": "Discover the difference with Chaufftec — Your trusted partner for heating, energy, and plumbing solutions. Contact us today for excellence that stands the test of time.",
+  "footer.title.2": "Quick links",
+  "footer.title.2.link.1": "Home",
+  "footer.title.2.link.2": "Testimonials",
+  "footer.title.3": "Services",
 } satisfies Dictionary;

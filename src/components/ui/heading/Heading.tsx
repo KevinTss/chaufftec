@@ -2,6 +2,7 @@ type HeadingProps = {
   children: React.ReactNode
   level?: 1 | 2 | 3
   className?: string
+  withUnderline?: boolean
 }
 
 const font: Record<NonNullable<HeadingProps['level']>, string> = {
@@ -25,15 +26,20 @@ const barWidth: Record<NonNullable<HeadingProps['level']>, string> = {
   3: '30px',
 }
 
-export const Heading = ({ children, className, level = 1 }: HeadingProps) => {
+export const Heading = ({
+  children,
+  className,
+  level = 1,
+  withUnderline = false,
+}: HeadingProps) => {
   const Markup = `h${level}` as const
 
   return (
     <Markup
-      className={`${font[level]} ${mb[level]} font-bold text relative whitespace-pre-line ${className}`}
+      className={`${font[level]} ${withUnderline ? mb[level] : ''} font-bold text relative whitespace-pre-line ${className}`}
     >
       {children}
-      <span
+      {withUnderline && <span
         style={{
           position: 'absolute',
           width: barWidth[level],
@@ -42,7 +48,7 @@ export const Heading = ({ children, className, level = 1 }: HeadingProps) => {
           top: barSpace[level],
           left: '0',
         }}
-      />
+      />}
     </Markup>
   )
 }
