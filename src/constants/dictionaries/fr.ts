@@ -32,7 +32,7 @@ export const fr = {
   "index.header.description": "Nous proposons un large service de chauffage, d'énergie renouvelable, sanitaire, de gaz et de traitement de l'eau.",
   "index.header.title": "Votre expert",
   "index.pricing.1.title": "Dépannage",
-  "index.pricing.1.price": "120€",
+  "index.pricing.1.price": "150€",
   "index.pricing.2.title": "Maintenance chaudière",
   "index.pricing.2.price": "170€",
   "index.pricing.description": "The prices provided are for indicative purposes only.",
