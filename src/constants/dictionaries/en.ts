@@ -30,7 +30,7 @@ export const en = {
   "index.pricing.2.4": "Small supplies",
   "index.pricing.2.5": "Site cleaning",
   "index.pricing.1.title": "Repair service",
-  "index.pricing.1.price": "€120",
+  "index.pricing.1.price": "€150",
   "index.pricing.2.title": "Boiler maintenance",
   "index.pricing.2.price": "€170",
   "index.pricing.description": "The prices provided are for indicative purposes only.",
